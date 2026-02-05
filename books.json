@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/81YkqyaFVEL.jpg",
+    "rating": 5,
+    "shortDescription": "An easy and proven way to build good habits and break bad ones.",
+    "fullReview": "This book completely changed how I think about building habits. James Clear breaks down the science of habit formation into actionable steps. The concept of making good habits obvious, attractive, easy, and satisfying is brilliant. I've applied the 2-minute rule to several areas of my life with amazing results. Highly recommended for anyone wanting to make lasting changes.",
+    "affiliateLink": "https://shopee.com/example-atomic-habits"
+  },
+  {
+    "id": 2,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/71TvVF4MoXL.jpg",
+    "rating": 5,
+    "shortDescription": "Timeless lessons on wealth, greed, and happiness.",
+    "fullReview": "Morgan Housel brilliantly explains that financial success has less to do with intelligence and more to do with behavior. The short stories and examples make complex financial concepts easy to understand. My favorite chapter is about the difference between being rich and being wealthy. This book changed my entire approach to money management.",
+    "affiliateLink": "https://shopee.com/example-psychology-money"
+  },
+  {
+    "id": 3,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/71Qz7GGvOBL.jpg",
+    "rating": 5,
+    "shortDescription": "A brief history of humankind from the Stone Age to modern times.",
+    "fullReview": "Harari's perspective on human history is mind-blowing. He challenges everything you think you know about civilization, religion, and human progress. The sections on the Cognitive Revolution and Agricultural Revolution are particularly fascinating. This book makes you think deeply about where we came from and where we're heading as a species.",
+    "affiliateLink": "https://shopee.com/example-sapiens"
+  },
+  {
+    "id": 4,
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/71-s0CuwFmL.jpg",
+    "rating": 4,
+    "shortDescription": "Explores the two systems that drive the way we think and make decisions.",
+    "fullReview": "Kahneman's decades of research into cognitive biases is presented in an accessible way. Learning about System 1 (fast, intuitive thinking) and System 2 (slow, deliberate thinking) helped me understand my own decision-making patterns. The book can be dense at times, but the insights are invaluable for anyone interested in psychology or making better decisions.",
+    "affiliateLink": "https://shopee.com/example-thinking-fast-slow"
+  },
+  {
+    "id": 5,
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/81kuLJ-ckPL.jpg",
+    "rating": 5,
+    "shortDescription": "Powerful lessons in personal change and effectiveness.",
+    "fullReview": "A timeless classic that's still relevant today. Covey's principle-centered approach to personal and professional effectiveness is profound. 'Begin with the end in mind' and 'Seek first to understand, then to be understood' have become guiding principles in my life. This book requires reflection and practice, but the payoff is enormous.",
+    "affiliateLink": "https://shopee.com/example-7-habits"
+  },
+  {
+    "id": 6,
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/71VG8bBMOYL.jpg",
+    "rating": 5,
+    "shortDescription": "A Holocaust survivor's exploration of finding purpose in suffering.",
+    "fullReview": "One of the most profound books I've ever read. Frankl's experiences in Nazi concentration camps and his insights on finding meaning even in the darkest circumstances are deeply moving. His logotherapy approach - that we can choose our attitude in any situation - is empowering. This book puts life's challenges into perspective.",
+    "affiliateLink": "https://shopee.com/example-mans-search-meaning"
+  },
+  {
+    "id": 7,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/71OqYpqBALL.jpg",
+    "rating": 4,
+    "shortDescription": "Rules for focused success in a distracted world.",
+    "fullReview": "Newport makes a compelling case for cultivating the ability to focus without distraction. In our world of constant notifications and shallow work, the ability to do deep work is becoming increasingly valuable. I've implemented several of his strategies, like time-blocking and scheduling distraction time, with great results. Essential reading for knowledge workers.",
+    "affiliateLink": "https://shopee.com/example-deep-work"
+  },
+  {
+    "id": 8,
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/71-BXS-ka4L.jpg",
+    "rating": 4,
+    "shortDescription": "A guide to spiritual enlightenment through present moment awareness.",
+    "fullReview": "Tolle's emphasis on living in the present moment is transformative. While some parts can feel repetitive or overly spiritual, the core message about separating yourself from your thoughts and finding peace in the now is powerful. This book has helped me reduce anxiety about the future and regret about the past.",
+    "affiliateLink": "https://shopee.com/example-power-now"
+  },
+  {
+    "id": 9,
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/71vK0WVQ4rL.jpg",
+    "rating": 5,
+    "shortDescription": "The classic guide to building better relationships.",
+    "fullReview": "Despite being written in 1936, this book remains incredibly relevant. Carnegie's principles for dealing with people - like showing genuine interest in others and avoiding criticism - are timeless. The examples might feel dated, but the lessons are universal. This book improved my relationships both personally and professionally.",
+    "affiliateLink": "https://shopee.com/example-win-friends"
+  },
+  {
+    "id": 10,
+    "title": "Start With Why",
+    "author": "Simon Sinek",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/71g1lrGfwLL.jpg",
+    "rating": 4,
+    "shortDescription": "How great leaders inspire everyone to take action.",
+    "fullReview": "Sinek's Golden Circle concept - starting with 'why' before 'how' and 'what' - is simple but powerful. Understanding your purpose and communicating it effectively can transform leadership and business. While the book can be repetitive, the core message about inspiring action through purpose is valuable for leaders, entrepreneurs, and anyone wanting to influence others positively.",
+    "affiliateLink": "https://shopee.com/example-start-why"
+  }
+]
