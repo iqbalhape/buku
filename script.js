@@ -18,18 +18,12 @@ function displayBooks(books) {
         bookCard.className = 'book-card';
         bookCard.onclick = () => showModal(book);
         
-        const stars = '⭐'.repeat(book.rating);
-        
         bookCard.innerHTML = `
             <img src="${book.cover}" alt="${book.title}" class="book-cover">
             <div class="book-info">
                 <h2>${book.title}</h2>
                 <p class="book-author">by ${book.author}</p>
-                <div class="book-rating">${stars}</div>
                 <p class="book-description">${book.shortDescription}</p>
-                <a href="${book.affiliateLink}" class="buy-button" target="_blank" onclick="event.stopPropagation()">
-                    Buy Now →
-                </a>
             </div>
         `;
         
@@ -42,7 +36,33 @@ function showModal(book) {
     const modal = document.getElementById('modal');
     const modalBody = document.getElementById('modal-body');
     
-    const stars = '⭐'.repeat(book.rating);
+    // Create purchase links
+    let purchaseLinks = '';
+    
+    if (book.shopeeLink && book.amazonLink) {
+        // Both links available
+        purchaseLinks = `
+            <div class="purchase-links">
+                <a href="${book.shopeeLink}" target="_blank" rel="noopener noreferrer">Beli di Shopee</a>
+                <span> atau </span>
+                <a href="${book.amazonLink}" target="_blank" rel="noopener noreferrer">Beli di Amazon/Kindle</a>
+            </div>
+        `;
+    } else if (book.shopeeLink) {
+        // Only Shopee link
+        purchaseLinks = `
+            <div class="purchase-links">
+                <a href="${book.shopeeLink}" target="_blank" rel="noopener noreferrer">Beli di Shopee</a>
+            </div>
+        `;
+    } else if (book.amazonLink) {
+        // Only Amazon link
+        purchaseLinks = `
+            <div class="purchase-links">
+                <a href="${book.amazonLink}" target="_blank" rel="noopener noreferrer">Beli di Amazon/Kindle</a>
+            </div>
+        `;
+    }
     
     modalBody.innerHTML = `
         <div class="modal-book-header">
@@ -50,16 +70,13 @@ function showModal(book) {
             <div class="modal-book-info">
                 <h2>${book.title}</h2>
                 <p class="book-author">by ${book.author}</p>
-                <div class="book-rating">${stars}</div>
             </div>
         </div>
         <div class="modal-review">
             <h3>My Review</h3>
             <p>${book.fullReview}</p>
         </div>
-        <a href="${book.affiliateLink}" class="buy-button" target="_blank">
-            Buy on Shopee →
-        </a>
+        ${purchaseLinks}
     `;
     
     modal.style.display = 'block';
